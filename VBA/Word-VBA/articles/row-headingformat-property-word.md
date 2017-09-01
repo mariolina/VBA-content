@@ -33,7 +33,7 @@ Dim rngTemp As Range
 Dim tableNew As Table 
  
 Set rngTemp = ActiveDocument.Range(0, 0) 
-Set tableNewe = ActiveDocument.Tables.Add(rngTemp, 5, 5) 
+Set tableNew = ActiveDocument.Tables.Add(rngTemp, 5, 5) 
  
 tableNew.Rows(1).HeadingFormat = True
 ```
